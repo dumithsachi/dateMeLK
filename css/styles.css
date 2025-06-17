@@ -46,10 +46,18 @@ p {
   font-weight: bold;
 }
 
+.navbar-brand::after {
+  content: "®";
+  font-size: 0.7em;
+  vertical-align: super;
+  margin-left: 2px;
+}
+
 .nav-link {
   color: #F5F5F5;
   font-size: 1.2rem;
-  font-family: 'Montserrat light', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
 }
 
 .nav-item {
@@ -128,11 +136,6 @@ p {
 
 .pricing-colum {
   padding: 3% 2%
-}
-
-.plus-color{
-    color: red;
-
 }
 
 #cta {
